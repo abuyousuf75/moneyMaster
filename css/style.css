@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px!important;
+}
+
+.header h1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #31A5AC;
+    font-family: Montserrat;
+}
+
+.money-calculations h1{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+
+/* input{
+    border-radius: 2px;
+    background: #DCDCDC;
+    border: none;
+    padding: 10px;
+} */

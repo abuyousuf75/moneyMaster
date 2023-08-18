@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="header">
+                <h1>Money Master </h1>
+            </div>
+            <div class="money-Wrapper grid md:grid-cols-2 gap-10 ">
+                
+                <div class="money-img">
+                    <img src="./images/pexels-photo-4386321.jpeg">
+                </div>
+                <div class="money-calculations">
+                    <h1>Income</h1>
+                    <div class="income">
+                        <h2 class="inline-block  text-xl p-2">Income: </h2>
+                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                    </div>
+                    <div class="expenses">
+                        <h2 class="text-xl font-bold p-4">Expenses</h2>
+                       <div class="food">
+                        <h2 class="inline-block  text-xl p-2">Food: </h2>
+                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                       </div>
+                       <div class="rent">
+                        <h2 class="inline-block  text-xl p-2">Rent: </h2>
+                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                       </div>
+                       <div class="cloth">
+                        <h2 class="inline-block  text-xl ">Clothes: </h2>
+                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                       </div>
+                       <button id="" class="px-8 py-2 mt-3 bg-[#59A5FF] text-xl text-white ml-4">Calculate</button>
+                       <div class="total-expnce">
+                        <h2 class="text-2xl mt-4 font-semibold">Total Expenses: <span>00</span> </h2>
+                        <h2 class="text-2xl mt-4 font-semibold">Blance: <span>00</span> </h2>
+                       </div>
+                       <div class="save mt-4">
+                        <h2 class="inline-block  text-xl ">Save: </h2>
+                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3 w-28">
+                        <span class="text-center pl-2">%</span>
+                        <button id="save" class="px-8 py-2 mt-3 bg-[#59A5FF] text-xl text-white ml-4">Save</button>
+                       </div>
+                       <div class="final-calculate mt-4 text-2xl font-semibold">
+                        <h2>Saving Amount: </h2>
+                        <h3>Remaining Balance: </h3>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
