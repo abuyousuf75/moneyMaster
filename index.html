@@ -23,36 +23,36 @@
                     <h1>Income</h1>
                     <div class="income">
                         <h2 class="inline-block  text-xl p-2">Income: </h2>
-                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                        <input type="text" name="" id="incomeField" class="bg-[#DCDCDC] p-2 mt-3">
                     </div>
                     <div class="expenses">
                         <h2 class="text-xl font-bold p-4">Expenses</h2>
                        <div class="food">
                         <h2 class="inline-block  text-xl p-2">Food: </h2>
-                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                        <input type="text" name="" id="foodValu" class="bg-[#DCDCDC] p-2 mt-3">
                        </div>
                        <div class="rent">
                         <h2 class="inline-block  text-xl p-2">Rent: </h2>
-                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                        <input type="text" name="" id="rentValue" class="bg-[#DCDCDC] p-2 mt-3">
                        </div>
                        <div class="cloth">
                         <h2 class="inline-block  text-xl ">Clothes: </h2>
-                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3">
+                        <input type="text" name="" id="clothValue" class="bg-[#DCDCDC] p-2 mt-3">
                        </div>
-                       <button id="" class="px-8 py-2 mt-3 bg-[#59A5FF] text-xl text-white ml-4">Calculate</button>
+                       <button id="" class="px-8 py-2 mt-3 bg-[#59A5FF] text-xl text-white ml-4" onclick="calculateMoney()">Calculate</button>
                        <div class="total-expnce">
-                        <h2 class="text-2xl mt-4 font-semibold">Total Expenses: <span>00</span> </h2>
-                        <h2 class="text-2xl mt-4 font-semibold">Blance: <span>00</span> </h2>
+                        <h2 class="text-2xl mt-4 font-semibold">Income Blance: <span id="blanceTotal">00</span> </h2>
+                        <h2 class="text-2xl mt-4 font-semibold">Total Expenses: <span id="totalExpence">00</span> </h2>
                        </div>
                        <div class="save mt-4">
                         <h2 class="inline-block  text-xl ">Save: </h2>
-                        <input type="text" name="" id="" class="bg-[#DCDCDC] p-2 mt-3 w-28">
+                        <input type="text" name="" id="saveInput" class="bg-[#DCDCDC] p-2 mt-3 w-28">
                         <span class="text-center pl-2">%</span>
-                        <button id="save" class="px-8 py-2 mt-3 bg-[#59A5FF] text-xl text-white ml-4">Save</button>
+                        <button id="save" class="px-8 py-2 mt-3 bg-[#59A5FF] text-xl text-white ml-4"  onclick=" calculateMoney()">Save</button>
                        </div>
                        <div class="final-calculate mt-4 text-2xl font-semibold">
-                        <h2>Saving Amount: </h2>
-                        <h3>Remaining Balance: </h3>
+                        <h2 >Saving Amount: <sapn id="savingAmound"></sapn></h2>
+                        <h3>Remaining Balance: <sapn id="remaningAmound"></sapn></h3>
                        </div>
                     </div>
                 </div>
